@@ -1,0 +1,325 @@
+/*
+Theme Name: gaji blue
+Theme URI: http://seigaji.info/theme
+Description: gaji note's theme blue
+Author: gaji note
+Author URI: http://seigaji.info/wordpress/
+Version: 0.07
+Tags: blue two-column
+
+License: GNU General Public License v2.0
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+Copyright (c) 2014 Gaji_note 
+
+*/
+@charset "utf-8";
+/* common */
+
+body{
+  font-size: 14px;
+  "Lucida Grande", "segoe UI", "ヒラギノ丸ゴ ProN W4", "Hiragino Maru Gothic ProN", Meiryo, Arial, sans-serif;
+  background-color: #ffffee;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  padding-bottom: 14px;
+  margin: 0;
+  line-height: 1.8;
+}
+
+img {
+  border-style: solid 2px;
+}
+
+input {
+  border-radius: 2px;
+  padding: 2px 2px 2px 2px;
+}
+
+.container {
+  width: 98%;
+  margin: 0 auto;
+  overflow: hidden;
+  background-color: #f0f0f0;
+}
+
+/* header */
+#header {
+  background-color: #C0C0CD;
+  color: #ffffff;
+  background-image: -moz-linear-gradient(top, #808090 6%, #606090);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0.06, #708090), color-stop(1.0, #687898));
+
+  background: #808090; /* Old browsers */
+  background: -moz-linear-gradient(top, #808090 0%, #0000ff 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,808090), color-stop(100%,#606090)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #808090 0%,#606090 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #808090 0%,#606090 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #808090 0%,#606090 100%); /* IE10+ */
+  background: linear-gradient(to bottom, #808090 0%,#606090 100%); /* W3C */
+}
+
+  h1 {
+    font-weight: bold;
+    font-size: 24px;
+    padding: 10px 5px;
+    text-shadow: 1px 1px 1px #101010;
+    color: white;
+  }
+    h1 a:link { color: #fee;}
+    h1 a:visited { color: #fee;}
+
+
+    h2 h3 h4 {
+     font-size: 18px;
+     padding: 10px 5px;
+     text-shadow: 1px 1px 1px #101010;
+    }
+
+    .menu {
+      border-radius: 2px;
+      background: #112288;
+      margin-bottom: 10px;
+      font-size: 11px;
+      list-style: none;
+      overflow: hidden;
+      padding: 0 10px;
+      background-image: -moz-linear-gradient(top, #000080, #0000FF);
+      background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0.00, #000080), color-stop(1.0, #0000FF));
+
+      background: #000080; /* Old browsers */
+      background: -moz-linear-gradient(top, #000080 0%, #0000ff 100%); /* FF3.6+ */
+      background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#000080), color-stop(100%,#0000ff)); /* Chrome,Safari4+ */
+      background: -webkit-linear-gradient(top, #00080 0%,#0000ff 100%); /* Chrome10+,Safari5.1+ */
+      background: -o-linear-gradient(top, #000080 0%,#0000ff 100%); /* Opera 11.10+ */
+      background: -ms-linear-gradient(top, #000080 0%,#0000ff 100%); /* IE10+ */
+      background: linear-gradient(to bottom, #000080 0%,#0000ff 100%); /* W3C */
+      border: 0px solid #000000;
+    }
+      .menu > li {
+        float: left;
+        width: 100px;
+        text-align: center;
+        text-shadow: 1px 1px 1px #000000;
+        border-style: solid 3px;
+        border: 1px solid #000080;
+      }
+
+      .menu a {
+        padding: 10px 0;
+        color: #fff;
+        display: block;
+      }
+
+      .menu a:hover {
+        background-color: #88BBDD;
+      }
+/* posts */
+#posts {
+  margin-bottom: 10px;
+  -moz-box-shadow: 1px 1px 1px #808080;
+  -webkit-box-shadow: 1px 1px 1px #808080;
+  box-shadow: 1px 1px 1px #808080;
+  border: 1px solid #CCCCFF;
+}
+  .post {
+    margin-top : 10px;
+    margin-left : 5px;
+    margin-right : 5px;
+    margin-bottom: 30px;
+    width: auto;
+    border-radius: 2px;
+    -moz-box-shadow: 1px 1px 1px #808080;
+    -webkit-box-shadow: 1px 1px 1px #808080;
+    box-shadow: 1px 1px 1px #808080;
+    border: solid 1px #cccccd;
+  }
+
+    .post-header {
+      margin-bottom: 15px;
+    }
+
+      .post-header h2 {
+        font-size: 16px;
+        font-weight: bold;
+      }
+
+        .post-meta {
+          font-size: 12px;
+          padding: 7px 0;
+          color: #555;
+        }
+
+        .post-content {
+          overflow: hidden;
+        }
+          .post-image {
+            float: left;
+            width: 115px;
+            padding: 3px 3px 3px 3px;
+            margin-top: 5px;
+            margin-bottom: 5px;
+            margin-left: 5px;
+          }
+          .post-body img {
+            /* margin-left: 115px; */
+            border: solid 2px #11f;
+          }
+
+          .post-body blockquote {
+            background-color: #000011;
+            color: #eeeeff;
+            margin-top: 5px;
+            margin-left: 5px;
+            margin-right: 5px;
+            margin-bottom: 5px;
+            padding: 3px 3px 3px 3px; 
+            border: solid 2px #000000;
+          }
+          .post-body pre {
+            background-color: #000022;
+            color: #eeeeff;
+            overflow: auto;
+            padding: 3px 3px 3px 3px;
+            margin-top: 5px;
+            margin-left: 5px;
+            margin-right: 5px;
+            margin-bottom: 5px;
+          }
+/* navigation */
+.navigation {
+  overflow:hidden;
+  width: auto;
+  /*padding: 10px 0;*/
+  font-size: 12px;
+  margin-bottom: 15px;
+}
+  .navigation a:link { color: #fee;}
+  .navigation a:visited { color: #fee;}
+  .prev {
+    float:left;
+    width: 100px;
+    margin-left: 10px;
+    border-radius: 2px;
+    border: solid 1px #0000cd;
+    box-shadow: 2px 2px 2px #808080;
+    background-color: #2222CD;
+    text-align: center;
+    text-shadow: 1px 1px 1px #000000;
+    /*padding: 3px;*/
+  }
+  .next {
+    float: right;
+    width: 100px;
+    margin-right: 10px;
+    border-radius: 2px;
+    border: solid 1px #0000cd;
+    box-shadow: 2px 2px 2px #808080;
+    background-color: #2222CD;
+    text-shadow: 1px 1px 1px #000000;
+    text-align: center;
+    /*padding: 3px;*/
+  }
+#sidebar {
+  -moz-box-shadow: 1px 1px 1px #808080;
+  -webkit-box-shadow: 1px 1px 1px #808080;
+  box-shadow: 1px 1px 1px #808080;
+  border-radius: 2px;
+  border: 1px solid #cccccd;
+  margin-left: 5px;
+}
+  .widget {
+    margin-bottom: 15px;
+    margin-top:10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    -moz-box-shadow: 1px 1px 1px #808080;
+    -webkit-box-shadow: 1px 1px 1px #808080;
+    box-shadow: 1px 1px 1px #808080;
+    border-radius: 1px;
+    border: 1px solid #cccccd;
+    overflow: hidden;
+    padding: 4px 4px 4px 4px;
+  }
+
+    .widget h3 {
+      font-weight: bold;
+      margin-top: 3px;
+      margin-bottom: 5px;
+    }
+
+      .widget li {
+        line-height: 1.8;
+        float: left;
+        overflow: hidden;
+        padding: 5px 5px;
+        /*padding: 10px 5px 10px 5px;*/
+      }
+
+#footer {
+  padding: 15px 0;
+  font-size: 12px;
+  color: #444444;
+  border-top: 1px solid #ccc;
+}
+/* movile */
+
+
+/* tablet */
+@media all and (min-width: 480px){
+}
+
+/* PC Style */
+@media all and (min-width: 768px){
+  #posts {
+    float: left;
+    width: 66%;
+  }
+  #sidebar {
+    float: right;
+    width: 32%;
+  }
+  .widget li {
+    list-style: none;
+    float: none;
+    width: 0 auto;
+    padding: 1px 1px 1px 1px;
+  }
+}
+table#wp-calendar {
+    padding:  0.2em;
+    width: 90%;
+    float: center;
+    margin: auto;
+    margin-top:2px;
+    margin-bottom:2px;
+    border-collapse: collapse;
+}
+
+table#wp-calendar th {
+  border: 1px solid #00c;
+  background-color: #44f;
+}
+
+table#wp-calendar td {
+  border: 1px solid #00f;
+  background-color: #ddf;
+  color: #877;
+  text-align: center;
+  margin-right: 2px;
+  padding-right: 2px;
+  border-collapse: collapse;
+}
+
+#comment-area {
+  margin-bottom: 2px;
+  margin-left: 2px;
+  margin-right: 2px;
+  margin-top: 2px;
+  padding: 10px 10px 10px 10px;
+}
