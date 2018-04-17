@@ -4,8 +4,6 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width,initial-scale=1">
         <title><?php wp_title('|', true, 'right'); bloginfo('name'); ?> | <?php bloginfo('description'); ?></title>
-        <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.14.1/build/cssreset-context/cssreset-context-min.css">
-        <link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_uri(); ?>">
 
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
