@@ -41,10 +41,15 @@
 		<?php
  		  endif;
 		?>
-
-                <div class="navigation">
-                    <div class="prev"><?php previous_posts_link(); ?></div>
-                    <div class="next"><?php next_posts_link(); ?></div>
+								<div class="navigation">
+										<?php if (get_previous_posts_link()!=""): ?>
+										<div class="prev"><?php previous_posts_link(); ?></div>
+										<?php else : ?>
+										<?php endif; ?>
+										<?php if (get_next_posts_link()!=""): ?>
+										<div class="next"><?php next_posts_link(); ?></div>
+										<?php else : ?>
+										<?php endif; ?>
                 </div>
             </div><!-- posts -->
             <?php get_sidebar(); ?>

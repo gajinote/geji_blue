@@ -22,9 +22,13 @@
                          </div>
                      </div>
                 </div><!-- /post -->
-                <div class="navigation">
-                    <div class="prev"><?php previous_post_link(); ?></div>
-                    <div class="next"><?php next_post_link(); ?></div>
+								<div class="navigation">
+										<?php if (get_previous_post_link()!=""): ?>
+										<div class="prev"><?php previous_post_link(); ?></div>
+										<?php endif; ?>
+										<?php if (get_next_post_link()!=""): ?>
+										<div class="next"><?php next_post_link(); ?></div>
+										<?php endif; ?>
                 </div>
 
                 <?php comments_template(); ?>
