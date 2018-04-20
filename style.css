@@ -172,34 +172,34 @@ input {
           }
 
           .post-body blockquote {
-						background-color: #090909;
-						color: #e9e9e9;
-						border-left: 10px solid #ccc;
-						margin: 1.5em 10px;
-						padding: 0.5em 10px;
-						quotes: "\201C""\201D""\2018""\2019";
-					}
-					.post-body blockquote:before {
-						color: #ccc;
-						content: open-quote;
-						font-size: 4em;
-						line-height: 0.1em;
-						margin-right: 0.25em;
-						vertical-align: -0.4em;
-					}
-					.post-body blockquote p {
-						display: inline;
-					}
-					.post-body pre {
-						background-color: #000022;
-						color: #eeeeff;
+            background-color: #090909;
+            color: #e9e9e9;
+            border-left: 10px solid #ccc;
+            margin: 1.5em 10px;
+            padding: 0.5em 10px;
+            quotes: "\201C""\201D""\2018""\2019";
+          }
+          .post-body blockquote:before {
+            color: #ccc;
+            content: open-quote;
+            font-size: 4em;
+            line-height: 0.1em;
+            margin-right: 0.25em;
+            vertical-align: -0.4em;
+          }
+          .post-body blockquote p {
+            display: inline;
+          }
+          .post-body pre {
+            background-color: #000022;
+            color: #eeeeff;
             overflow: auto;
             padding: 3px 3px 3px 3px;
             margin-top: 5px;
             margin-left: 5px;
             margin-right: 5px;
-						margin-bottom: 5px;
-		}
+            margin-bottom: 5px;
+    }
 /* navigation */
 .navigation {
   overflow:hidden;

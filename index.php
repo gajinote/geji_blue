@@ -1,22 +1,22 @@
 <?php get_header(); ?>
         <div id="main" class="container">
             <div id="posts">
-		<?php
-		  if (have_posts()) :
-		    while (have_posts()) :
-		      the_post();
-		?>
+    <?php
+      if (have_posts()) :
+        while (have_posts()) :
+          the_post();
+    ?>
 
                 <div class="post">
                     <div class="post-header">
                         <div class="post-content">
                             <div class="post-image">
                                 
-				<?php if (has_post_thumbnail()) : ?>
-				<?php the_post_thumbnail(array(100, 100)); ?>
-				<?php else: ?>
-				<img src="<?php echo get_template_directory_uri(); ?>/img/noimage.png" width="100" height="100">
-				<?php endif; ?>
+        <?php if (has_post_thumbnail()) : ?>
+        <?php the_post_thumbnail(array(100, 100)); ?>
+        <?php else: ?>
+        <img src="<?php echo get_template_directory_uri(); ?>/img/noimage.png" width="100" height="100">
+        <?php endif; ?>
                             </div>
                         <h2>
                             <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
@@ -25,31 +25,31 @@
                             <?php echo get_the_date(); ?>【<?php the_category(', '); ?>】
                         </div>
                             <div class="post-body">
-                        	<?php the_excerpt(); ?>    
-			</div>
+                          <?php the_excerpt(); ?>    
+      </div>
                         </div>
                     </div>
                 </div><!-- /post -->
 
-		<?php
-		  endwhile;
-		else:
-		?>
+    <?php
+      endwhile;
+    else:
+    ?>
 
-		<p>記事はありません！</p>
+    <p>記事はありません！</p>
 
-		<?php
- 		  endif;
-		?>
-								<div class="navigation">
-										<?php if (get_previous_posts_link()!=""): ?>
-										<div class="prev"><?php previous_posts_link(); ?></div>
-										<?php else : ?>
-										<?php endif; ?>
-										<?php if (get_next_posts_link()!=""): ?>
-										<div class="next"><?php next_posts_link(); ?></div>
-										<?php else : ?>
-										<?php endif; ?>
+    <?php
+       endif;
+    ?>
+                <div class="navigation">
+                    <?php if (get_previous_posts_link()!=""): ?>
+                    <div class="prev"><?php previous_posts_link(); ?></div>
+                    <?php else : ?>
+                    <?php endif; ?>
+                    <?php if (get_next_posts_link()!=""): ?>
+                    <div class="next"><?php next_posts_link(); ?></div>
+                    <?php else : ?>
+                    <?php endif; ?>
                 </div>
             </div><!-- posts -->
             <?php get_sidebar(); ?>
