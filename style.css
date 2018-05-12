@@ -55,13 +55,13 @@ input {
   background-image: -moz-linear-gradient(top, #808090 6%, #606090);
   background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0.06, #708090), color-stop(1.0, #687898));
 
-  background: #808090; /* Old browsers */
-  background: -moz-linear-gradient(top, #808090 0%, #0000ff 100%); /* FF3.6+ */
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,808090), color-stop(100%,#606090)); /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(top, #808090 0%,#606090 100%); /* Chrome10+,Safari5.1+ */
-  background: -o-linear-gradient(top, #808090 0%,#606090 100%); /* Opera 11.10+ */
-  background: -ms-linear-gradient(top, #808090 0%,#606090 100%); /* IE10+ */
-  background: linear-gradient(to bottom, #808090 0%,#606090 100%); /* W3C */
+  background: #808088; /* Old browsers */
+  background: -moz-linear-gradient(top, #808088 0%, #0000ff 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,808088), color-stop(100%,#606088)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #808088 0%,#606088 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #808088 0%,#606088 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #808088 0%,#606088 100%); /* IE10+ */
+  background: linear-gradient(to bottom, #808088 0%,#606088 100%); /* W3C */
 }
 
   h1 {
@@ -170,7 +170,7 @@ input {
           }
 
           .post-body blockquote {
-            background-color: #090909;
+            background-color: #333333;
             color: #e9e9e9;
             border-left: 10px solid #ccc;
             margin: 1.5em 10px;
@@ -189,7 +189,9 @@ input {
             display: inline;
           }
           .post-body code {
-            font-size: 12px;
+            font-size: 14px;
+            background-color: #333338;
+            color: #ffffee
             li.L0, li.L1, li.L2, li.L3, li.L4, li.L5, li.L6, li.L7, li.L8, li.L9 {
               list-style-position: outside;
               margin-left: 36px;
@@ -197,7 +199,7 @@ input {
             }
           }
           .post-body pre {
-            background-color: #000022;
+            background-color: #333340;
             color: #eeeeff;
             overflow: auto;
             padding: 3px 3px 3px 3px;
@@ -212,18 +214,18 @@ input {
   width: auto;
   /*padding: 10px 0;*/
   margin-top: 5px;
-	margin-bottom: 5px;
+  margin-bottom: 5px;
   font-size: 12px;
   margin-bottom: 15px;
 }
-  .navigation a:link { color: #fee;}
-  .navigation a:visited { color: #fee;}
+  .navigation a:link { color: #ffffee;}
+  .navigation a:visited { color: #ffffee;}
   .prev {
     float:left;
     width: 100px;
-		margin-top: 10px;
+    margin-top: 10px;
     margin-left: 10px;
-		margin-bottom: 10px;
+    margin-bottom: 10px;
     border-radius: 2px;
     border: solid 1px #2222cd;
     box-shadow: 2px 2px 2px #808080;
@@ -231,21 +233,21 @@ input {
     /* background-color: #2222CD; */
     text-align: center;
     text-shadow: 1px 1px 1px #000000;
-    /*padding: 3px;*/
+    padding: 5px;
   }
   .next {
     float: right;
     width: 100px;
-		margin-top: 10px;
+    margin-top: 10px;
     margin-right: 10px;
-		margin-bottom: 10px;
+    margin-bottom: 10px;
     border-radius: 2px;
     border: solid 1px #2222cd;
     box-shadow: 2px 2px 2px #808080;
     background-color: #0d5fc4;
     text-shadow: 1px 1px 1px #000000;
     text-align: center;
-    /*padding: 3px;*/
+    padding: 5px;
   }
 #sidebar {
   -moz-box-shadow: 1px 1px 1px #808080;
